@@ -5,8 +5,10 @@ Hi, this game is made in python running in cmd.<br>
 <br>
 <strong>Installation:</strong><br>
   simply open cmd and type:<br>
-    cd <directory to the folder><br>
+  <br>
+    cd [directory to the folder]<br>
     (python -m) pip install -r requirements.py<br>
+  <br>
   wait until download completes<br>
 <br>
   then just run <strong>run.bat</strong> and maximilizate your cmd, thats all :)
