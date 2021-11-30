@@ -2,17 +2,22 @@ input("Press enter to start!")
 import time
 from pynput import keyboard
 from threading import Thread
-import ctypes
 
-# Get screen size
+
+''' Stuff that doesn't work
+import ctypes
 user32 = ctypes.windll.user32
 screensize = user32.GetSystemMetrics(0), user32.GetSystemMetrics(1)
+width = round(screensize[0]/8)
+height = round(screensize[1]/20)
+'''
 
 
 # 120, 35
 # Game settings
-width = round(screensize[0]/8)
-height = round(screensize[1]/20)
+
+width = 120
+height = 35
 left_margin = 5
 scoreA = 0
 scoreB = 0
